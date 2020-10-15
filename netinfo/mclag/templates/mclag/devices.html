@@ -2,20 +2,22 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 <body>
     <div class=container>
-        <h1>MCLAG APP</h1>
-        <h2>DEVICES</h2>
-        <table style="width:100%">
-            <tr>
-                <th>Id</th>
-                <th>Name</th>
-                <th>Host</th>
-            </tr>
-            {% for device in devices %}
-            <tr>
-                <td>{{device.id}}</td>
-                <td><a href="{% url 'device' device.id %}">{{device.name}}</a></td>
-                <td>{{device.host}}</td>
-            </tr>
+        <h2>{{ device.name }} ({{ device.host }}) - interfaces</h2>
+         <table style="width:100%">
+             <tr>
+                <th>Interface name</th>
+                <th>Description</th>
+                <th>Status</th>
+                
+      </tr>
+      {% for interface_name, interface in interfaces.items %}
+
+      <tr>
+        <td>{{ interface_name }}</td>
+        <td>{{ interface.description }}</td>
+        <td> {% if interface.is_up %} UP {% else %} DOWN {% endif %}
+        </td>
+      </tr>
             {% endfor %}
         </table>
         
