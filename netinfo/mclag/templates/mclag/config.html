@@ -1,0 +1,28 @@
+<html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<body>
+    <div class=container>
+        <h2>{{ device.name }} ({{ device.host }}) - Configuration</h2>
+        <table style="width:100%">
+            <tr>
+               <th>Interface name</th>
+               <th>description</th>
+               <th>IP</th>
+               
+     </tr>
+     {% for interface_name, interface in interfaces.items %}
+
+     <tr>
+         <td>{{ interface }}</td>
+         <td>{{ description }}</td>
+         <td>{{ ipv4 }}</td>
+       <!-- <td>{{ interface_name }}</td>
+       <td>{{ interface.ipv4 }}</td>
+       <td> {% if interface.is_up %} UP {% else %} DOWN {% endif %}
+       </td> -->
+     </tr>
+           {% endfor %}
+       </table>
+    </div>
+</body>
+</html>

@@ -6,7 +6,7 @@
          <table style="width:100%">
              <tr>
                 <th>Interface name</th>
-                <th>Description</th>
+                <th>IP</th>
                 <th>Status</th>
                 
       </tr>
@@ -14,7 +14,7 @@
 
       <tr>
         <td>{{ interface_name }}</td>
-        <td>{{ interface.description }}</td>
+        <td>{{ interface.ipv4 }}</td>
         <td> {% if interface.is_up %} UP {% else %} DOWN {% endif %}
         </td>
       </tr>
@@ -23,7 +23,7 @@
         
         <br><br>
 
-        <p>Run command:</p>
+        <!-- <p>Run command:</p>
         <form method="POST"> {% csrf_token %}
         {{ form }}
         <input type="submit" value="Run command!" />
@@ -31,7 +31,7 @@
         {% if request.POST %}
         <p>Command output:</p>
         <pre>{{ output }}</pre>
-        {% endif %}
+        {% endif %} -->
     </div>
 
 </body>

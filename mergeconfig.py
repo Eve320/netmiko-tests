@@ -48,16 +48,20 @@ def main(config_file):
     print(device.compare_config())
 
     # You can commit or discard the candidate changes.
-    try:
-        choice = raw_input("\nWould you like to commit these changes? [yN]: ")
-    except NameError:
-        choice = input("\nWould you like to commit these changes? [yN]: ")
-    if choice == "y":
-        print("Committing ...")
-        device.commit_config()
+
+    if len(device.compare_config())>0:
+    # # try:
+    #     choice = raw_input("\nWould you like to commit these changes? [y/N]: ")
+    # # except NameError:
+        choice = input("\nWould you like to commit these changes? [y/N]: ")
+        if choice == "y":
+            print("Committing ...")
+            device.commit_config()
+        else:
+            print("Discarding ...")
+            device.discard_config()
     else:
-        print("Discarding ...")
-        device.discard_config()
+        print("No difference")
 
     # close the session with the device.
     device.close()

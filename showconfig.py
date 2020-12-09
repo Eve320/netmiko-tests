@@ -11,12 +11,12 @@ logger = logging.getLogger("netmiko")
 
 
 
-PE1 = { 
-	'device_type': 'cisco_xr_telnet', 
-	'ip': '127.0.0.1', 
-	'username': 'developer',
-	'password': 'C1sco12345',
-	"port": "5000",
+r1 = { 
+	'device_type': 'cisco_xr', 
+	'ip': '10.10.20.70', 
+	'username': 'admin',
+	'password': 'admin',
+	"port": "2221",
    }
 
 r2 = { 
@@ -27,15 +27,16 @@ r2 = {
 	"port": "2231",
    }
 
-routers = [PE1]
+routers = [r1]
 for routerslist in routers :
     net_connect = ConnectHandler(**routerslist)
-    output = net_connect.send_command("show run | b interface")
+    output = net_connect.send_command("show run")
 	
     file = open('output.cfg', 'w')
     file.write(str(output))
     file.close()
-
+    
+print(output)
 
 
 router = [r2]
@@ -47,7 +48,7 @@ for routerlist in router :
     file.write(str(output1))
     file.close()
 
-print(output1)
+
 
 # class iosxrapi(object):
 #     def __init__(self, hostname=None, username=None, password=None, optional_args=None):

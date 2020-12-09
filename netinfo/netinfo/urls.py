@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from django.conf.urls import url, include
+from mclag.admin import admin_site
+
 urlpatterns = [
+    url(r'^admin/', admin_site.urls),
     path('mclag/', include('mclag.urls')),
     path('admin/', admin.site.urls),
 ]
