@@ -17,6 +17,7 @@ r1 = {
 	'username': 'admin',
 	'password': 'admin',
 	"port": "2221",
+    'global_delay_factor': 4,
    }
 
 r2 = { 
@@ -25,30 +26,31 @@ r2 = {
 	'username': 'admin',
 	'password': 'admin',
 	"port": "2231",
+    'global_delay_factor': 4,
    }
 
 routers = [r1]
 for routerslist in routers :
     net_connect = ConnectHandler(**routerslist)
-    output = net_connect.send_command("show run")
+    output = net_connect.send_command("show running-config")
 	
     file = open('output.cfg', 'w')
     file.write(str(output))
     file.close()
     
-print(output)
+
 
 
 router = [r2]
 for routerlist in router :
     net_connect = ConnectHandler(**routerlist)
-    output1 = net_connect.send_command("show run")
+    output1 = net_connect.send_command("show running-config")
 	
     file = open('output1.cfg', 'w')
     file.write(str(output1))
     file.close()
 
-
+    print(output1)
 
 # class iosxrapi(object):
 #     def __init__(self, hostname=None, username=None, password=None, optional_args=None):

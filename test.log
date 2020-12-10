@@ -27956,3 +27956,3499 @@ DEBUG:netmiko:read_channel:
 DEBUG:netmiko:read_channel: 
 XML> 
 DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:starting thread (client mode): 0x127ce358
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2221: b'e1ad3e53cdc053037494810944e7d7d0'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: 
+RP/0/RP0/CPU0:r1#
+
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 
+RP/0/RP0/CPU0:r1#
+
+DEBUG:netmiko:
+RP/0/RP0/CPU0:r1#
+
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: terminal length 0
+Thu Dec 10 10:13:11.790 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: terminal width 511
+Thu Dec 10 10:13:12.001 UTC
+RP/0/RP0/CPU0:r1#
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:write_channel: b'show run\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:paramiko.transport:starting thread (client mode): 0x109977f0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2231: b'0b7fe057af98893860da3ac18b449501'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r2#
+
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: terminal length 0
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 10:13:20.408 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 terminal length 0
+Thu Dec 10 10:13:20.408 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:terminal length 0
+Thu Dec 10 10:13:20.408 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: terminal width 511
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 10:13:20.975 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 terminal width 511
+Thu Dec 10 10:13:20.975 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'show run\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+DEBUG:paramiko.transport:starting thread (client mode): 0x793c358
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2221: b'e1ad3e53cdc053037494810944e7d7d0'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: terminal length 0
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 10:55:22.258 UTC
+
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 terminal length 0
+Thu Dec 10 10:55:22.258 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: terminal width 511
+Thu Dec 10 10:55:22.456 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:write_channel: b'show run\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: show run
+Thu Dec 10 10:55:23.566 UTC
+
+DEBUG:netmiko:read_channel: Building configuration...
+!! IOS XR Configuration version = 6.4.1
+!! Last configuration change at Wed Dec  9 14:45:47 2020 by admin
+!
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: hostname r1
+banner motd ;
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+;
+logging console disable
+service timestamps log datetime msec
+service timestamps debug datetime msec
+username admin
+ group root-lr
+ group cisco-support
+ secret 5 $1$A4C9$oaNorr6BXDruE4gDd086L.
+!
+line console
+ timestamp disable
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+line default
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+vty-pool default 0 4 line-template VTY-TEMPLATE
+call-home
+ service active
+ contact smart-licensing
+ profile CiscoTAC-1
+  active
+  destination transport-method http
+ !
+!
+interface Bundle-Ether33
+ description ==TEST1==
+ mtu 9216
+ bundle maximum-active links 2
+ bundle minimum-active links 1
+!
+interface Bundle-Ether33.1
+ description 95014353 National Bank Of Kenya-Nakuru
+ vrf NBK
+ ipv4 address 1.1.1.1 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3302
+!
+interface Bundle-Ether33.2
+ description 95014354 National Bank Of Kenya Nakuru Hospital ATM
+ vrf NBK
+ ipv4 address 2.2.2.2 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3303
+!
+interface Bundle-Ether33.3
+ description 95014450_Jamii_Bora_Bank-Nakuru_Backup
+ vrf JAMII_BORA
+ ipv4 address 172.30.17.53 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3304
+!
+interface Bundle-Ether33.4
+ description 95015815 NBK-Westside Mall Nakuru ATM
+ vrf NBK
+ ipv4 address 172.30.17.77 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3311
+!
+interface Bundle-Ether33.5
+ description TEST INTERFACE
+!
+interface MgmtEth0/RP0/CPU0/0
+ description *** MANAGEMENT INTERFACE ***
+ ipv4 address dhcp
+!
+interface GigabitEthernet0/0/0/0
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/1
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/2
+ shutdown
+!
+interface GigabitEthernet0/0/0/3
+ shutdown
+!
+interface GigabitEthernet0/0/0/4
+ shutdown
+!
+interface preconfigure MgmtEth0/0/CPU0/0
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/5
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/6
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/7
+ shutdown
+!
+router static
+ address-family ipv4 unicast
+  0.0.0.0/0 192.168.122.1
+ !
+!
+xml agent tty
+ iteration off
+!
+netconf-yang agent
+ ssh
+!
+ssh server v2
+ssh server netconf vrf default
+router eigrp 200
+ address-family ipv4
+ !
+ vrf NBK
+  address-family ipv4
+   default-metric 1024 100 255 1 1500
+   autonomous-system 500
+   redistribute connected
+   redistribute static
+   interface Bundle-Ether33.1
+   !
+   interface Bundle-Ether33.2
+   !
+   interface Bundle-Ether33.4
+   !
+  !
+ !
+!
+end
+
+RP/0/RP0/CPU0:r1#
+DEBUG:paramiko.transport:starting thread (client mode): 0x5b057f0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2231: b'0b7fe057af98893860da3ac18b449501'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:paramiko.transport:starting thread (client mode): 0xb029c358
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2221: b'e1ad3e53cdc053037494810944e7d7d0'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: 
+RP/0/RP0/CPU0:r1#terminal length 0
+
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 
+RP/0/RP0/CPU0:r1#terminal length 0
+
+DEBUG:netmiko:read_channel: Thu Dec 10 11:07:16.021 UTC
+RP/0/RP0/CPU0:r1#terminal width 511
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: Thu Dec 10 11:07:16.252 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:write_channel: b'show run\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: show run
+Thu Dec 10 11:07:16.953 UTC
+
+DEBUG:netmiko:read_channel: Building configuration...
+!! IOS XR Configuration version = 6.4.1
+!! Last configuration change at Wed Dec  9 14:45:47 2020 by admin
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: !
+hostname r1
+banner motd ;
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+;
+logging console disable
+service timestamps log datetime msec
+service timestamps debug datetime msec
+username admin
+ group root-lr
+ group cisco-support
+ secret 5 $1$A4C9$oaNorr6BXDruE4gDd086L.
+!
+line console
+ timestamp disable
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+line default
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+vty-pool default 0 4 line-template VTY-TEMPLATE
+call-home
+ service active
+ contact smart-licensing
+ profile CiscoTAC-1
+  active
+  destination transport-method http
+ !
+!
+interface Bundle-Ether33
+ description ==TEST1==
+ mtu 9216
+ bundle maximum-active links 2
+ bundle minimum-active links 1
+!
+interface Bundle-Ether33.1
+ description 95014353 National Bank Of Kenya-Nakuru
+ vrf NBK
+ ipv4 address 1.1.1.1 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3302
+!
+interface Bundle-Ether33.2
+ description 95014354 National Bank Of Kenya Nakuru Hospital ATM
+ vrf NBK
+ ipv4 address 2.2.2.2 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3303
+!
+interface Bundle-Ether33.3
+ description 95014450_Jamii_Bora_Bank-Nakuru_Backup
+ vrf JAMII_BORA
+ ipv4 address 172.30.17.53 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3304
+!
+interface Bundle-Ether33.4
+ description 95015815 NBK-Westside Mall Nakuru ATM
+ vrf NBK
+ ipv4 address 172.30.17.77 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3311
+!
+interface Bundle-Ether33.5
+ description TEST INTERFACE
+!
+interface MgmtEth0/RP0/CPU0/0
+ description *** MANAGEMENT INTERFACE ***
+ ipv4 address dhcp
+!
+interface GigabitEthernet0/0/0/0
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/1
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/2
+ shutdown
+!
+interface GigabitEthernet0/0/0/3
+ shutdown
+!
+interface GigabitEthernet0/0/0/4
+ shutdown
+!
+interface preconfigure MgmtEth0/0/CPU0/0
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/5
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/6
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/7
+ shutdown
+!
+router static
+ address-family ipv4 unicast
+  0.0.0.0/0 192.168.122.1
+ !
+!
+xml agent tty
+ iteration off
+!
+netconf-yang agent
+ ssh
+!
+ssh server v2
+ssh server netconf vrf default
+router eigrp 200
+ address-family ipv4
+ !
+ vrf NBK
+  address-family ipv4
+   default-metric 1024 100 255 1 1500
+   autonomous-system 500
+   redistribute connected
+   redistribute static
+   interface Bundle-Ether33.1
+   !
+   interface Bundle-Ether33.2
+   !
+   interface Bundle-Ether33.4
+   !
+  !
+ !
+!
+end
+
+RP/0/RP0/CPU0:r1#
+DEBUG:paramiko.transport:starting thread (client mode): 0xae4657f0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2231: b'0b7fe057af98893860da3ac18b449501'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: terminal length 0
+Thu Dec 10 11:07:29.490 UTC
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: terminal width 511
+Thu Dec 10 11:07:29.700 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'show run\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+DEBUG:paramiko.transport:starting thread (client mode): 0xb101c358
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2221: b'e1ad3e53cdc053037494810944e7d7d0'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: terminal length 0
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 11:12:43.688 UTC
+
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 terminal length 0
+Thu Dec 10 11:12:43.688 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:terminal length 0
+Thu Dec 10 11:12:43.688 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: terminal width 511
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 11:12:44.915 UTC
+
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 terminal width 511
+Thu Dec 10 11:12:44.915 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'show run\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#show run
+
+DEBUG:paramiko.transport:starting thread (client mode): 0xab1d0828
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2231: b'0b7fe057af98893860da3ac18b449501'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#terminal length 0
+Thu Dec 10 11:12:58.597 UTC
+RP/0/RP0/CPU0:r2#terminal width 511
+Thu Dec 10 11:12:58.949 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+
+DEBUG:netmiko:write_channel: b'show run\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#show run
+Thu Dec 10 11:13:00.549 UTC
+Building configuration...
+!! IOS XR Configuration version = 6.4.1
+
+DEBUG:paramiko.transport:starting thread (client mode): 0x27b98358
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2221: b'e1ad3e53cdc053037494810944e7d7d0'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: terminal length 0
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 11:13:53.577 UTC
+
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r1#terminal width 511
+Thu Dec 10 11:13:54.119 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 terminal length 0
+Thu Dec 10 11:13:53.577 UTC
+RP/0/RP0/CPU0:r1#terminal width 511
+Thu Dec 10 11:13:54.119 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:write_channel: b'show run\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: show run
+Thu Dec 10 11:13:55.654 UTC
+Building configuration...
+!! IOS XR Configuration version = 6.4.1
+!! Last configuration change at Wed Dec  9 14:45:47 2020 by admin
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: !
+hostname r1
+banner motd ;
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+;
+logging console disable
+service timestamps log datetime msec
+service timestamps debug datetime msec
+username admin
+ group root-lr
+ group cisco-support
+ secret 5 $1$A4C9$oaNorr6BXDruE4gDd086L.
+!
+line console
+ timestamp disable
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+line default
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+vty-pool default 0 4 line-template VTY-TEMPLATE
+call-home
+ service active
+ contact smart-licensing
+ profile CiscoTAC-1
+  active
+  destination transport-method http
+ !
+!
+interface Bundle-Ether33
+ description ==TEST1==
+ mtu 9216
+ bundle maximum-active links 2
+ bundle minimum-active links 1
+!
+interface Bundle-Ether33.1
+ description 95014353 National Bank Of Kenya-Nakuru
+ vrf NBK
+ ipv4 address 1.1.1.1 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3302
+!
+interface Bundle-Ether33.2
+ description 95014354 National Bank Of Kenya Nakuru Hospital ATM
+ vrf NBK
+ ipv4 address 2.2.2.2 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3303
+!
+interface Bundle-Ether33.3
+ description 95014450_Jamii_Bora_Bank-Nakuru_Backup
+ vrf JAMII_BORA
+ ipv4 address 172.30.17.53 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3304
+!
+interface Bundle-Ether33.4
+ description 95015815 NBK-Westside Mall Nakuru ATM
+ vrf NBK
+ ipv4 address 172.30.17.77 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3311
+!
+interface Bundle-Ether33.5
+ description TEST INTERFACE
+!
+interface MgmtEth0/RP0/CPU0/0
+ description *** MANAGEMENT INTERFACE ***
+ ipv4 address dhcp
+!
+interface GigabitEthernet0/0/0/0
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/1
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/2
+ shutdown
+!
+interface GigabitEthernet0/0/0/3
+ shutdown
+!
+interface GigabitEthernet0/0/0/4
+ shutdown
+!
+interface preconfigure MgmtEth0/0/CPU0/0
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/5
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/6
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/7
+ shutdown
+!
+router static
+ address-family ipv4 unicast
+  0.0.0.0/0 192.168.122.1
+ !
+!
+xml agent tty
+ iteration off
+!
+netconf-yang agent
+ ssh
+!
+ssh server v2
+ssh server netconf vrf default
+router eigrp 200
+ address-family ipv4
+ !
+ vrf NBK
+  address-family ipv4
+   default-metric 1024 100 255 1 1500
+   autonomous-system 500
+   redistribute connected
+   redistribute static
+   interface Bundle-Ether33.1
+   !
+   interface Bundle-Ether33.2
+   !
+   interface Bundle-Ether33.4
+   !
+  !
+ !
+!
+end
+
+RP/0/RP0/CPU0:r1#
+DEBUG:paramiko.transport:starting thread (client mode): 0x25d617f0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2231: b'0b7fe057af98893860da3ac18b449501'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: terminal length 0
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 11:14:05.968 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 terminal length 0
+Thu Dec 10 11:14:05.968 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: terminal width 511
+Thu Dec 10 11:14:06.250 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:write_channel: b'show run\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: show run
+Thu Dec 10 11:14:07.478 UTC
+
+DEBUG:netmiko:read_channel: Building configuration...
+!! IOS XR Configuration version = 6.4.1
+!! Last configuration change at Wed Dec  9 14:47:59 2020 by admin
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: !
+hostname r2
+banner motd ;
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+;
+logging console disable
+service timestamps log datetime msec
+service timestamps debug datetime msec
+username admin
+ group root-lr
+ group cisco-support
+ secret 5 $1$A4C9$oaNorr6BXDruE4gDd086L.
+!
+line console
+ timestamp disable
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+line default
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+vty-pool default 0 4 line-template VTY-TEMPLATE
+call-home
+ service active
+ contact smart-licensing
+ profile CiscoTAC-1
+  active
+  destination transport-method http
+ !
+!
+interface Bundle-Ether33
+ description ==TEST1==
+ mtu 9216
+ bundle maximum-active links 2
+ bundle minimum-active links 1
+!
+interface Bundle-Ether33.1
+ description 95014353 National Bank Of Kenya-Nakuru
+ vrf NBK
+ ipv4 address 1.1.1.1 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3302
+!
+interface Bundle-Ether33.2
+ description 95014354 National Bank Of Kenya Nakuru Hospital ATM
+ vrf NBK
+ ipv4 address 2.2.2.2 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3303
+!
+interface Bundle-Ether33.3
+ description 95014450_Jamii_Bora_Bank-Nakuru_Backup
+ vrf JAMII_BORA
+ ipv4 address 172.30.17.53 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3304
+!
+interface Bundle-Ether33.4
+ description 95015815 NBK-Westside Mall Nakuru ATM
+ vrf NBK
+ ipv4 address 172.30.17.77 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3311
+!
+interface Bundle-Ether33.5
+ description TEST INTERFACE
+!
+interface MgmtEth0/RP0/CPU0/0
+ description *** MANAGEMENT INTERFACE ***
+ ipv4 address dhcp
+!
+interface GigabitEthernet0/0/0/0
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/1
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/2
+ shutdown
+!
+interface GigabitEthernet0/0/0/3
+ shutdown
+!
+interface GigabitEthernet0/0/0/4
+ shutdown
+!
+interface preconfigure MgmtEth0/0/CPU0/0
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/5
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/6
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/7
+ shutdown
+!
+router static
+ address-family ipv4 unicast
+  0.0.0.0/0 192.168.122.1
+ !
+!
+xml agent tty
+ iteration off
+!
+netconf-yang agent
+ ssh
+!
+ssh server v2
+ssh server netconf vrf default
+router eigrp 200
+ address-family ipv4
+ !
+ vrf NBK
+  address-family ipv4
+   default-metric 1024 100 255 1 1500
+   autonomous-system 500
+   redistribute connected
+   redistribute static
+   interface Bundle-Ether33.1
+   !
+   interface Bundle-Ether33.2
+   !
+   interface Bundle-Ether33.4
+   !
+  !
+ !
+!
+end
+
+RP/0/RP0/CPU0:r2#
+DEBUG:paramiko.transport:starting thread (client mode): 0xe1c9d358
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2221: b'e1ad3e53cdc053037494810944e7d7d0'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: terminal length 0
+Thu Dec 10 11:14:42.572 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 terminal length 0
+Thu Dec 10 11:14:42.572 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: terminal width 511
+Thu Dec 10 11:14:42.859 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+
+DEBUG:netmiko:write_channel: b'show run\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r1#show run
+Thu Dec 10 11:14:43.782 UTC
+
+DEBUG:paramiko.transport:starting thread (client mode): 0xe00f37b8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2231: b'0b7fe057af98893860da3ac18b449501'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: terminal length 0
+Thu Dec 10 11:14:53.346 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: terminal width 511
+Thu Dec 10 11:14:53.559 UTC
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+
+
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'show run\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+DEBUG:paramiko.transport:starting thread (client mode): 0x6d82a7f0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2231: b'0b7fe057af98893860da3ac18b449501'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r2#
+
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 RP/0/RP0/CPU0:r2#
+
+DEBUG:netmiko:RP/0/RP0/CPU0:r2#
+
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r2#terminal length 0
+Thu Dec 10 11:16:01.479 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 RP/0/RP0/CPU0:r2#terminal length 0
+Thu Dec 10 11:16:01.479 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: terminal width 511
+Thu Dec 10 11:16:02.302 UTC
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'xml\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: xml
+Thu Dec 10 11:16:02.775 UTC
+XML> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'<?xml version="1.0" encoding="UTF-8"?><Request MajorVersion="1" MinorVersion="0"><Lock/></Request>\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: <?xml version="1.0" encoding="UTF-8"?>
+<Response MajorVersion="1" MinorVersion="0"><Lock/><ResultSummary ErrorCount="0"/></Response>
+XML> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'<?xml version="1.0" encoding="UTF-8"?><Request MajorVersion="1" MinorVersion="0"><CLI><Configuration>CPU0:r1#show run\n\nThu Dec 10 11:14:43.782 UTC\n</Configuration></CLI></Request>\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: <?xml version="1.0" encoding="UTF-8"?>
+<Response MajorVersion="1" MinorVersion="0"><CLI><Configuration>
+CPU0:r1#show run
+ ^
+% Invalid input detected at &apos;^&apos; marker.
+Thu Dec 10 11:14:43.782 UTC
+ ^
+% Invalid input detected at &apos;^&apos; marker.
+</Configuration></CLI><ResultSummary ErrorCount="0"/></Response>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+XML> 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'<?xml version="1.0" encoding="UTF-8"?><Request MajorVersion="1" MinorVersion="0"><Clear/></Request>\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: <?xml version="1.0" encoding="UTF-8"?>
+<Response MajorVersion="1" MinorVersion="0"><Clear/><ResultSummary ErrorCount="0"/></Response>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+XML> 
+DEBUG:paramiko.transport:starting thread (client mode): 0xa9ebe358
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2221: b'e1ad3e53cdc053037494810944e7d7d0'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:paramiko.transport:starting thread (client mode): 0xccef3358
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2221: b'e1ad3e53cdc053037494810944e7d7d0'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#terminal length 0
+
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#terminal length 0
+
+DEBUG:netmiko:
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#terminal length 0
+
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 11:16:49.011 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 Thu Dec 10 11:16:49.011 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: terminal width 511
+Thu Dec 10 11:16:49.826 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+
+DEBUG:netmiko:write_channel: b'show run\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#show run
+Thu Dec 10 11:16:51.237 UTC
+
+DEBUG:paramiko.transport:starting thread (client mode): 0xcc0a87f0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2231: b'0b7fe057af98893860da3ac18b449501'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: terminal length 0
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 11:16:58.900 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 terminal length 0
+Thu Dec 10 11:16:58.900 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:terminal length 0
+Thu Dec 10 11:16:58.900 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: terminal width 511
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 11:16:59.503 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 terminal width 511
+Thu Dec 10 11:16:59.503 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:write_channel: b'show run\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: show run
+Thu Dec 10 11:17:01.327 UTC
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: Building configuration...
+!! IOS XR Configuration version = 6.4.1
+!! Last configuration change at Wed Dec  9 14:47:59 2020 by admin
+!
+hostname r2
+banner motd ;
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+;
+logging console disable
+service timestamps log datetime msec
+service timestamps debug datetime msec
+username admin
+ group root-lr
+ group cisco-support
+ secret 5 $1$A4C9$oaNorr6BXDruE4gDd086L.
+!
+line console
+ timestamp disable
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+line default
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+vty-pool default 0 4 line-template VTY-TEMPLATE
+call-home
+ service active
+ contact smart-licensing
+ profile CiscoTAC-1
+  active
+  destination transport-method http
+ !
+!
+interface Bundle-Ether33
+ description ==TEST1==
+ mtu 9216
+ bundle maximum-active links 2
+ bundle minimum-active links 1
+!
+interface Bundle-Ether33.1
+ description 95014353 National Bank Of Kenya-Nakuru
+ vrf NBK
+ ipv4 address 1.1.1.1 255.255.255.252
+ encapsulation dot1q 3021 secon
+DEBUG:netmiko:read_channel: d-dot1q 3302
+!
+interface Bundle-Ether33.2
+ description 95014354 National Bank Of Kenya Nakuru Hospital ATM
+ vrf NBK
+ ipv4 address 2.2.2.2 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3303
+!
+interface Bundle-Ether33.3
+ description 95014450_Jamii_Bora_Bank-Nakuru_Backup
+ vrf JAMII_BORA
+ ipv4 address 172.30.17.53 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3304
+!
+interface Bundle-Ether33.4
+ description 95015815 NBK-Westside Mall Nakuru ATM
+ vrf NBK
+ ipv4 address 172.30.17.77 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3311
+!
+interface Bundle-Ether33.5
+ description TEST INTERFACE
+!
+interface MgmtEth0/RP0/CPU0/0
+ description *** MANAGEMENT INTERFACE ***
+ ipv4 address dhcp
+!
+interface GigabitEthernet0/0/0/0
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/1
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/2
+ shutdown
+!
+interface GigabitEthernet0/0/0/3
+ shutdown
+!
+interface GigabitEthernet0/0/0/4
+ shutd
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: own
+!
+interface preconfigure MgmtEth0/0/CPU0/0
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/5
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/6
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/7
+ shutdown
+!
+router static
+ address-family ipv4 unicast
+  0.0.0.0/0 192.168.122.1
+ !
+!
+xml agent tty
+ iteration off
+!
+netconf-yang agent
+ ssh
+!
+ssh server v2
+ssh server netconf vrf default
+router eigrp 200
+ address-family ipv4
+ !
+ vrf NBK
+  address-family ipv4
+   default-metric 1024 100 255 1 1500
+   autonomous-system 500
+   redistribute connected
+   redistribute static
+   interface Bundle-Ether33.1
+   !
+   interface Bundle-Ether33.2
+   !
+   interface Bundle-Ether33.4
+   !
+  !
+ !
+!
+end
+
+RP/0/RP0/CPU0:r2#
+DEBUG:paramiko.transport:starting thread (client mode): 0x8275b358
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2221: b'e1ad3e53cdc053037494810944e7d7d0'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r1#
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: terminal length 0
+Thu Dec 10 11:17:51.839 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 terminal length 0
+Thu Dec 10 11:17:51.839 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: terminal width 511
+Thu Dec 10 11:17:52.093 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:write_channel: b'show run\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: show run
+Thu Dec 10 11:17:53.887 UTC
+
+DEBUG:netmiko:read_channel: Building configuration...
+!! IOS XR Configuration version = 6.4.1
+!! Last configuration change at Wed Dec  9 14:45:47 2020 by admin
+!
+
+DEBUG:netmiko:read_channel: hostname r1
+banner motd ;
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+;
+logging console disable
+service timestamps log datetime msec
+service timestamps debug datetime msec
+username admin
+ group root-lr
+ group cisco-support
+ secret 5 $1$A4C9$oaNorr6BXDruE4gDd086L.
+!
+line console
+ timestamp disable
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+line default
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+vty-pool default 0 4 line-template VTY-TEMPLATE
+call-home
+ service active
+ contact smart-licensing
+ profile CiscoTAC-1
+  active
+  destination transport-method http
+ !
+!
+interface Bundle-Ether33
+ description ==TEST1==
+ mtu 9216
+ bundle maximum-active links 2
+ bundle minimum-active links 1
+!
+interface Bundle-Ether33.1
+ description 95014353 National Bank Of Kenya-Nakuru
+ vrf NBK
+ ipv4 address 1.1.1.1 255.255.255.252
+ encapsulation dot1q 3021 secon
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: d-dot1q 3302
+!
+interface Bundle-Ether33.2
+ description 95014354 National Bank Of Kenya Nakuru Hospital ATM
+ vrf NBK
+ ipv4 address 2.2.2.2 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3303
+!
+interface Bundle-Ether33.3
+ description 95014450_Jamii_Bora_Bank-Nakuru_Backup
+ vrf JAMII_BORA
+ ipv4 address 172.30.17.53 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3304
+!
+interface Bundle-Ether33.4
+ description 95015815 NBK-Westside Mall Nakuru ATM
+ vrf NBK
+ ipv4 address 172.30.17.77 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3311
+!
+interface Bundle-Ether33.5
+ description TEST INTERFACE
+!
+interface MgmtEth0/RP0/CPU0/0
+ description *** MANAGEMENT INTERFACE ***
+ ipv4 address dhcp
+!
+interface GigabitEthernet0/0/0/0
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/1
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/2
+ shutdown
+!
+interface GigabitEthernet0/0/0/3
+ shutdown
+!
+interface GigabitEthernet0/0/0/4
+ shutdown
+!
+interface preconfigure MgmtEth0/0/CPU0/0
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/5
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/6
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/7
+ shutdown
+!
+router static
+ address-family ipv4 unicast
+  0.0.0.0/0 192.168.122.1
+ !
+!
+xml agent tty
+ iteration off
+!
+netconf-yang agent
+ ssh
+!
+ssh server v2
+ssh server netconf vrf default
+router eigrp 200
+ address-family ipv4
+ !
+ vrf NBK
+  address-family ipv4
+   default-metric 1024 100 255 1 1500
+   autonomous-system 500
+   redistribute connected
+   redistribute static
+   interface Bundle-Ether33.1
+   !
+   interface Bundle-Ether33.2
+   !
+   interface Bundle-Ether33.4
+   !
+  !
+ !
+!
+end
+
+RP/0/RP0/CPU0:r1#
+DEBUG:paramiko.transport:starting thread (client mode): 0x80924940
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2231: b'0b7fe057af98893860da3ac18b449501'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#terminal length 0
+Thu Dec 10 11:18:03.611 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 
+
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#terminal length 0
+Thu Dec 10 11:18:03.611 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: terminal width 511
+Thu Dec 10 11:18:04.111 UTC
+RP/0/RP0/CPU0:r2#
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'show running-config\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+DEBUG:paramiko.transport:starting thread (client mode): 0xc62ec358
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2221: b'e1ad3e53cdc053037494810944e7d7d0'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#terminal length 0
+Thu Dec 10 11:18:18.121 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#terminal length 0
+Thu Dec 10 11:18:18.121 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#terminal length 0
+Thu Dec 10 11:18:18.121 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: terminal width 511
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 11:18:18.905 UTC
+
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 terminal width 511
+Thu Dec 10 11:18:18.905 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+
+DEBUG:netmiko:write_channel: b'show running-config\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+DEBUG:paramiko.transport:starting thread (client mode): 0xc44b57f0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2231: b'0b7fe057af98893860da3ac18b449501'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+
+
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#terminal length 0
+Thu Dec 10 11:18:30.329 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#terminal length 0
+Thu Dec 10 11:18:30.329 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#terminal length 0
+Thu Dec 10 11:18:30.329 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: terminal width 511
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 11:18:31.306 UTC
+
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 terminal width 511
+Thu Dec 10 11:18:31.306 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:write_channel: b'show running-config\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: show running-config
+Thu Dec 10 11:18:32.665 UTC
+Building configuration...
+!! IOS XR Configuration version = 6.4.1
+!! Last configuration change at Wed Dec  9 14:47:59 2020 by admin
+
+DEBUG:netmiko:read_channel: !
+hostname r2
+banner motd ;
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+;
+logging console disable
+service timestamps log datetime msec
+service timestamps debug datetime msec
+username admin
+ group root-lr
+ group cisco-support
+ secret 5 $1$A4C9$oaNorr6BXDruE4gDd086L.
+!
+line console
+ timestamp disable
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+line default
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+vty-pool default 0 4 line-template VTY-TEMPLATE
+call-home
+ service active
+ contact smart-licensing
+ profile CiscoTAC-1
+  active
+  destination transport-method http
+ !
+!
+interface Bundle-Ether33
+ description ==TEST1==
+ mtu 9216
+ bundle maximum-active links 2
+ bundle minimum-active links 1
+!
+interface Bundle-Ether33.1
+ description 95014353 National Bank Of Kenya-Nakuru
+ vrf NBK
+ ipv4 address 1.1.1.1 255.255.255.252
+ encapsulation dot1q 3021 secon
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: d-dot1q 3302
+!
+interface Bundle-Ether33.2
+ description 95014354 National Bank Of Kenya Nakuru Hospital ATM
+ vrf NBK
+ ipv4 address 2.2.2.2 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3303
+!
+interface Bundle-Ether33.3
+ description 95014450_Jamii_Bora_Bank-Nakuru_Backup
+ vrf JAMII_BORA
+ ipv4 address 172.30.17.53 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3304
+!
+interface Bundle-Ether33.4
+ description 95015815 NBK-Westside Mall Nakuru ATM
+ vrf NBK
+ ipv4 address 172.30.17.77 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3311
+!
+interface Bundle-Ether33.5
+ description TEST INTERFACE
+!
+interface MgmtEth0/RP0/CPU0/0
+ description *** MANAGEMENT INTERFACE ***
+ ipv4 address dhcp
+!
+interface GigabitEthernet0/0/0/0
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/1
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/2
+ shutdown
+!
+interface GigabitEthernet0/0/0/3
+ shutdown
+!
+interface GigabitEthernet0/0/0/4
+ shutdown
+!
+interface preconfigure MgmtEth0/0/CPU0/0
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/5
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/6
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/7
+ shutdown
+!
+router static
+ address-family ipv4 unicast
+  0.0.0.0/0 192.168.122.1
+ !
+!
+xml agent tty
+ iteration off
+!
+netconf-yang agent
+ ssh
+!
+ssh server v2
+ssh server netconf vrf default
+router eigrp 200
+ address-family ipv4
+ !
+ vrf NBK
+  address-family ipv4
+   default-metric 1024 100 255 1 1500
+   autonomous-system 500
+   redistribute connected
+   redistribute static
+   interface Bundle-Ether33.1
+   !
+   interface Bundle-Ether33.2
+   !
+   interface Bundle-Ether33.4
+   !
+  !
+ !
+!
+end
+
+RP/0/RP0/CPU0:r2#
+DEBUG:paramiko.transport:starting thread (client mode): 0x3261f358
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2221: b'e1ad3e53cdc053037494810944e7d7d0'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: terminal length 0
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 11:21:06.234 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 terminal length 0
+Thu Dec 10 11:21:06.234 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: terminal width 511
+Thu Dec 10 11:21:06.782 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'show running-config\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:paramiko.transport:starting thread (client mode): 0x307e77f0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2231: b'0b7fe057af98893860da3ac18b449501'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: terminal length 0
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 11:21:15.526 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 terminal length 0
+Thu Dec 10 11:21:15.526 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: terminal width 511
+Thu Dec 10 11:21:16.087 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'show running-config\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r2#
+RP/0/RP0/CPU0:r2#show running-config
+
+DEBUG:paramiko.transport:starting thread (client mode): 0x307e7d68
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2231: b'0b7fe057af98893860da3ac18b449501'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:paramiko.transport:starting thread (client mode): 0x46394358
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2221: b'e1ad3e53cdc053037494810944e7d7d0'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: terminal length 0
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 11:25:41.451 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 terminal length 0
+Thu Dec 10 11:25:41.451 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:terminal length 0
+Thu Dec 10 11:25:41.451 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r1
+DEBUG:netmiko:_read_channel_expect read_data: terminal width 511
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 11:25:42.051 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r1 terminal width 511
+Thu Dec 10 11:25:42.051 UTC
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'show running-config\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: show running-config
+Thu Dec 10 11:25:45.468 UTC
+Building configuration...
+!! IOS XR Configuration version = 6.4.1
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: !! Last configuration change at Wed Dec  9 14:45:47 2020 by admin
+!
+hostname r1
+banner motd ;
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+;
+logging console disable
+service timestamps log datetime msec
+service timestamps debug datetime msec
+username admin
+ group root-lr
+ group cisco-support
+ secret 5 $1$A4C9$oaNorr6BXDruE4gDd086L.
+!
+line console
+ timestamp disable
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+line default
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+vty-pool default 0 4 line-template VTY-TEMPLATE
+call-home
+ service active
+ contact smart-licensing
+ profile CiscoTAC-1
+  active
+  destination transport-method http
+ !
+!
+interface Bundle-Ether33
+ description ==TEST1==
+ mtu 9216
+ bundle maximum-active links 2
+ bundle minimum-active links 1
+!
+interface Bundle-Ether33.1
+ description 95014353 National Bank Of Kenya-Nakuru
+ vrf NBK
+ ipv4 address 1.1.1.1 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3302
+!
+interface Bundle-Ether33.2
+ description 95014354 National Bank Of Kenya Nakuru Hospital ATM
+ vrf NBK
+ ipv4 address 2.2.2.2 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3303
+!
+interface Bundle-Ether33.3
+ description 95014450_Jamii_Bora_Bank-Nakuru_Backup
+ vrf JAMII_BORA
+ ipv4 address 172.30.17.53 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3304
+!
+interface Bundle-Ether33.4
+ description 95015815 NBK-Westside Mall Nakuru ATM
+ vrf NBK
+ ipv4 address 172.30.17.77 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3311
+!
+interface Bundle-Ether33.5
+ description TEST INTERFACE
+!
+interface MgmtEth0/RP0/CPU0/0
+ description *** MANAGEMENT INTERFACE ***
+ ipv4 address dhcp
+!
+interface GigabitEthernet0/0/0/0
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/1
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/2
+ shutdown
+!
+interface GigabitEthernet0/0/0/3
+ shutdown
+!
+interface GigabitEthernet0/0/0/4
+ shutdown
+!
+interface preconfigure MgmtEth0/0/CPU0/0
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/5
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/6
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/7
+ shutdown
+!
+router static
+ address-family ipv4 unicast
+  0.0.0.0/0 192.168.122.1
+ !
+!
+xml agent tty
+ iteration off
+!
+netconf-yang agent
+ ssh
+!
+ssh server v2
+ssh server netconf vrf default
+router eigrp 200
+ address-family ipv4
+ !
+ vrf NBK
+  address-family ipv4
+   default-metric 1024 100 255 1 1500
+   autonomous-system 500
+   redistribute connected
+   redistribute static
+   interface Bundle-Ether33.1
+   !
+   interface Bundle-Ether33.2
+   !
+   interface Bundle-Ether33.4
+   !
+  !
+ !
+!
+end
+
+RP/0/RP0/CPU0:r1#
+DEBUG:paramiko.transport:starting thread (client mode): 0x4455b7f0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.4.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-2.0
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-2.0)
+DEBUG:paramiko.transport:kex algos:['ecdh-sha2-nistp521', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] server mac:['hmac-sha2-512', 'hmac-sha2-256', 'hmac-sha1'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: ecdh-sha2-nistp256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for [10.10.20.70]:2231: b'0b7fe057af98893860da3ac18b449501'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: terminal length 0
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 11:26:07.211 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 terminal length 0
+Thu Dec 10 11:26:07.211 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:terminal length 0
+Thu Dec 10 11:26:07.211 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: RP\/0\/RP0\/CPU0\:r2
+DEBUG:netmiko:_read_channel_expect read_data: terminal width 511
+
+DEBUG:netmiko:_read_channel_expect read_data: Thu Dec 10 11:26:09.128 UTC
+
+DEBUG:netmiko:_read_channel_expect read_data: RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:Pattern found: RP\/0\/RP0\/CPU0\:r2 terminal width 511
+Thu Dec 10 11:26:09.128 UTC
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+RP/0/RP0/CPU0:r2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'show running-config\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: show running-config
+Thu Dec 10 11:26:12.957 UTC
+Building configuration...
+!! IOS XR Configuration version = 6.4.1
+!! Last configuration change at Wed Dec  9 14:47:59 2020 by admin
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: !
+hostname r2
+banner motd ;
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+;
+logging console disable
+service timestamps log datetime msec
+service timestamps debug datetime msec
+username admin
+ group root-lr
+ group cisco-support
+ secret 5 $1$A4C9$oaNorr6BXDruE4gDd086L.
+!
+line console
+ timestamp disable
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+line default
+ exec-timeout 0 0
+ absolute-timeout 0
+ session-timeout 0
+!
+vty-pool default 0 4 line-template VTY-TEMPLATE
+call-home
+ service active
+ contact smart-licensing
+ profile CiscoTAC-1
+  active
+  destination transport-method http
+ !
+!
+interface Bundle-Ether33
+ description ==TEST1==
+ mtu 9216
+ bundle maximum-active links 2
+ bundle minimum-active links 1
+!
+interface Bundle-Ether33.1
+ description 95014353 National Bank Of Kenya-Nakuru
+ vrf NBK
+ ipv4 address 1.1.1.1 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3302
+!
+interface Bundle-Ether33.2
+ description 95014354 National Bank Of Kenya Nakuru Hospital ATM
+ vrf NBK
+ ipv4 address 2.2.2.2 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3303
+!
+interface Bundle-Ether33.3
+ description 95014450_Jamii_Bora_Bank-Nakuru_Backup
+ vrf JAMII_BORA
+ ipv4 address 172.30.17.53 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3304
+!
+interface Bundle-Ether33.4
+ description 95015815 NBK-Westside Mall Nakuru ATM
+ vrf NBK
+ ipv4 address 172.30.17.77 255.255.255.252
+ encapsulation dot1q 3021 second-dot1q 3311
+!
+interface Bundle-Ether33.5
+ description TEST INTERFACE
+!
+interface MgmtEth0/RP0/CPU0/0
+ description *** MANAGEMENT INTERFACE ***
+ ipv4 address dhcp
+!
+interface GigabitEthernet0/0/0/0
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/1
+ bundle id 33 mode on
+ shutdown
+!
+interface GigabitEthernet0/0/0/2
+ shutdown
+!
+interface GigabitEthernet0/0/0/3
+ shutdown
+!
+interface GigabitEthernet0/0/0/4
+ shutdown
+!
+interface preconfigure MgmtEth0/0/CPU0/0
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/5
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/6
+ shutdown
+!
+interface preconfigure GigabitEthernet0/0/0/7
+ shutdown
+!
+router static
+ address-family ipv4 unicast
+  0.0.0.0/0 192.168.122.1
+ !
+!
+xml agent tty
+ iteration off
+!
+netconf-yang agent
+ ssh
+!
+ssh server v2
+ssh server netconf vrf default
+router eigrp 200
+ address-family ipv4
+ !
+ vrf NBK
+  address-family ipv4
+   default-metric 1024 100 255 1 1500
+   autonomous-system 500
+   redistribute connected
+   redistribute static
+   interface Bundle-Ether33.1
+   !
+   interface Bundle-Ether33.2
+   !
+   interface Bundle-Ether33.4
+   !
+  !
+ !
+!
+end
+
+RP/0/RP0/CPU0:r2#
